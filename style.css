@@ -144,13 +144,6 @@ body {
 .slack-name {
 }
 
-.trademark-ticketmaster {
-  width: 178px;
-  color: rgba(104, 115, 125, 1);
-  display: flex;
-  align-items: center;
-}
-
 .ticketmaster-box {
 }
 
@@ -253,6 +246,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
 .b-2-content-label {
@@ -326,7 +320,6 @@ body {
 .b-7-box-ch-content-link {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .link-name {
@@ -543,6 +536,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 
 .b-6-content-label {
@@ -571,19 +565,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
 }
-
-.b-6-img {
-  width: 64px;
-  height: 64px;
+.b-6-box-img {
+  margin-bottom: 44px;
 }
-
 .b-6-box-content-content {
   color: rgba(3, 54, 61, 1);
   font-weight: bold;
   font-size: 20px;
   line-height: 32px;
+  margin-bottom: 30px;
 }
 
 .b-6-box-paragraph-1,
@@ -598,6 +589,7 @@ body {
 
 .b-6-box-paragraph-1 {
   width: 482.9px;
+  margin-bottom: 26px;
 }
 
 .b-6-box-paragraph-2 {
@@ -671,7 +663,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+}
+
+.b-7-box-ch-content-quote {
+  margin-bottom: 34px;
+}
+
+.b-7-box-ch-content-manager {
+  margin-bottom: 24px;
+}
+
+.b-7-box-ch-content-link {
+  margin-bottom: 0;
 }
 
 .b-7-box-ch-content-quote {
@@ -708,7 +711,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 16px;
+  padding: 32px 8px 14px 8px;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: transparent;
 }
 
 .b-7-box-ch-content-statistical-ch {
@@ -768,7 +776,7 @@ body {
 .b-8-box-content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 28px;
 }
 
 .b-8-content {
@@ -837,7 +845,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 1088px;
-  gap: 32px;
+  gap: 23px;
 }
 
 .f-1-logo {
@@ -863,7 +871,7 @@ body {
 .f-1-box {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
 }
 
 .f-1-ch-content-box {
@@ -887,7 +895,7 @@ body {
   width: 168px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 9px;
 }
 
 .detail {
